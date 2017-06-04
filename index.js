@@ -26,6 +26,8 @@ module.exports = function(inputString, separatorSubstring, inclusive) {
       result.split.push(target.slice(startIdx, nextIdx));
       target = target.slice(nextIdx + onset, target.length);
   }
-  result.splat.push(target);
+  if(target.length > 0) {
+    result.splat.push(target);
+  }
   return result;
 };
