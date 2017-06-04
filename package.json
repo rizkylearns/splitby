@@ -1,0 +1,17 @@
+{
+  "name": "splitby",
+  "version": "0.0.1",
+  "description": "Splits string into a { split, splat } object based on the separator parameter. This is useful when a string has a separator pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string"    
+  ],
+  "author": "Rizky Farhan",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
